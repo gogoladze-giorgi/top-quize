@@ -1,15 +1,19 @@
 
 import Classes from './Navigation.module.css'
-const Navigation=()=> {
+const Navigation=(props)=> {
+
+     const link =  <link rel="stylesheet" href="https://en.wikipedia.org/wiki/Product_(business)"/>
+
     return<nav>
             <ul>
-                <li>
+                <li onClick={props.homeChange}>
                     home
                     <span></span><span></span><span></span><span></span>
                 </li>
-                <li>
-                    products
+                <li >
+                    <a href="https://en.wikipedia.org/wiki/Product_(business)">products
                     <span></span><span></span><span></span><span></span>
+                    </a>
                 </li>
                 <li>
                     services

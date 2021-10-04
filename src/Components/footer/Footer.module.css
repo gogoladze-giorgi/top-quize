@@ -1,1 +1,23 @@
+.footers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+.footers a{
+    text-decoration: none;
+    color: #b61c1c; /* For Example */
+    background: #333333;
+    width: border-box;
+    margin: 0;
+    padding-left: 100%;
+    padding-right: 100%;
+    text-align: center;
+    padding-bottom: 2px;
+
+}
+
+
 

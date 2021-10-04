@@ -5,6 +5,7 @@ body {
     align-items: center;
     justify-content: center;
     /*background-color: black;*/
+
 }
 
 nav ul {
@@ -36,6 +37,7 @@ nav ul li {
     z-index: 1;
     transition: 0.5s;
     margin: 1em;
+    cursor: pointer;
 }
 
 nav ul li span {
@@ -53,6 +55,11 @@ nav ul li span {
 
 nav ul li:hover {
     color: black;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--c);
+    cursor: pointer;
 }
 
 nav ul li:hover span {
