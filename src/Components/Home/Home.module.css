@@ -1,0 +1,15 @@
+.home_headers{
+    display: flex;
+    /*justify-content: space-around;*/
+    justify-content: space-around;
+
+}
+.home{
+    align-items: start;
+    color: red;
+}
+.links{
+    display: flex;
+
+    justify-content: space-around;
+}
